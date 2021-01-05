@@ -25,21 +25,14 @@ typedef struct {
 
 
 
+// Get the size of list
+int listSize(List* list);
+
 // Insert the Node into Linked List
 void inseartNode(List* list, int value);
 // Insert the Node into Linked List
 bool removeNode(List* list, int targetValue);
+
 // Print out all list information
-void printList(List* list);
-// Get the size of list
-int listSize(List* list);
-
-
-// // Print out the every information from the first to the last
-// void printForword(struct node* header);
-// // Print out the every information from the last to first
-// void printBackword(struct node* tail);
-// // Sort the Linked list
-// void sortList(struct node* header);
-// // Remove the information
-// void removeList(struct node* header);
+void printListForward(List* list);
+void printListReverse(List* list);
