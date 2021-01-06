@@ -27,6 +27,9 @@ typedef struct {
 // Get the size of list
 int listSize(List* list);
 
+// Get the size of list
+int listSize(List* list);
+
 // Insert the Node into Linked List
 void inseartNode(List* list, int value);
 // Insert the Node into Linked List
